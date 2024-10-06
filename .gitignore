@@ -73,3 +73,8 @@ docker-compose.override.yml
 # Ignore CI/CD config files
 /.github/
 /.azure-pipelines/
+
+
+# Ignore appsettings.json
+appsettings.json
+appsettings.*.json
