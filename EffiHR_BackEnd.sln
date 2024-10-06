@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EffiHR.Api", "EffiHR.Api\EffiHR.Api.csproj", "{7B3174E7-EA2D-455A-8EE2-F9E7567F06D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EffiHR.Application", "EffiHR.Application\EffiHR.Application.csproj", "{4036F7B3-36FA-41F1-BAA0-8DBA0536E1A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EffiHR.Domain", "EffiHR.Domain\EffiHR.Domain.csproj", "{AB473AF0-1401-4D1F-B012-46479810089A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EffiHR.Infrastructure", "EffiHR.Infrastructure\EffiHR.Infrastructure.csproj", "{E59D5A55-7584-4832-89C5-FCB7B6E2133A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EffiHR.Tests", "EffiHR.Tests\EffiHR.Tests.csproj", "{60E70B0D-9261-47D3-86AE-61F9D9BB4824}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EffiHR.SharedKernel", "EffiHR.SharedKernel\EffiHR.SharedKernel.csproj", "{50D50D78-6DD8-4B8C-8961-19FFB14253D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EffiHR.Core", "EffiHR.Core\EffiHR.Core.csproj", "{3904B14A-425F-43D0-A014-036DF9F6051E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B3174E7-EA2D-455A-8EE2-F9E7567F06D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B3174E7-EA2D-455A-8EE2-F9E7567F06D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B3174E7-EA2D-455A-8EE2-F9E7567F06D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B3174E7-EA2D-455A-8EE2-F9E7567F06D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4036F7B3-36FA-41F1-BAA0-8DBA0536E1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4036F7B3-36FA-41F1-BAA0-8DBA0536E1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4036F7B3-36FA-41F1-BAA0-8DBA0536E1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4036F7B3-36FA-41F1-BAA0-8DBA0536E1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB473AF0-1401-4D1F-B012-46479810089A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB473AF0-1401-4D1F-B012-46479810089A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB473AF0-1401-4D1F-B012-46479810089A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB473AF0-1401-4D1F-B012-46479810089A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E59D5A55-7584-4832-89C5-FCB7B6E2133A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E59D5A55-7584-4832-89C5-FCB7B6E2133A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E59D5A55-7584-4832-89C5-FCB7B6E2133A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E59D5A55-7584-4832-89C5-FCB7B6E2133A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60E70B0D-9261-47D3-86AE-61F9D9BB4824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E70B0D-9261-47D3-86AE-61F9D9BB4824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E70B0D-9261-47D3-86AE-61F9D9BB4824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E70B0D-9261-47D3-86AE-61F9D9BB4824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D50D78-6DD8-4B8C-8961-19FFB14253D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D50D78-6DD8-4B8C-8961-19FFB14253D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D50D78-6DD8-4B8C-8961-19FFB14253D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D50D78-6DD8-4B8C-8961-19FFB14253D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3904B14A-425F-43D0-A014-036DF9F6051E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3904B14A-425F-43D0-A014-036DF9F6051E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3904B14A-425F-43D0-A014-036DF9F6051E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3904B14A-425F-43D0-A014-036DF9F6051E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27AE7E95-D156-4DF7-8B2E-D7F818ECBE13}
+	EndGlobalSection
+EndGlobal
